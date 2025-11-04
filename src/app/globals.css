@@ -1,0 +1,152 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: var(--font-inter), sans-serif;
+}
+
+:root {
+  --primary-color: #f97316; /* Orange-500 */
+  --primary-light: #fdba74; /* Orange-300 */
+  --primary-dark: #c2410c; /* Orange-700 */
+  --text-light: #ffffff;
+  --text-dark: #1f2937;
+  --bg-light: #f9fafb;
+  --bg-sidebar: #f3f4f6;
+}
+
+/* Resume specific styles */
+.resume-container {
+  max-width: 1024px;
+  margin: 0 auto;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.resume-header {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .resume-header {
+    flex-direction: row;
+  }
+}
+
+.header-photo {
+  width: 100%;
+  background-color: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+@media (min-width: 768px) {
+  .header-photo {
+    width: 25%;
+  }
+}
+
+.header-info {
+  width: 100%;
+  background-color: var(--primary-color);
+  color: var(--text-light);
+  padding: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .header-info {
+    width: 75%;
+  }
+}
+
+.resume-content {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .resume-content {
+    flex-direction: row;
+  }
+}
+
+.resume-sidebar {
+  width: 100%;
+  background-color: var(--bg-sidebar);
+  padding: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .resume-sidebar {
+    width: 33.333333%;
+  }
+}
+
+.resume-main {
+  width: 100%;
+  padding: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .resume-main {
+    width: 66.666667%;
+  }
+}
+
+.section-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+.main-section-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.skill-bar {
+  height: 0.5rem;
+  width: 100%;
+  background-color: #e5e7eb;
+  border-radius: 9999px;
+  overflow: hidden;
+  margin-top: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.skill-progress {
+  height: 100%;
+  background-color: var(--primary-color);
+}
+
+.skill-dots {
+  display: flex;
+  margin-top: 0.25rem;
+}
+
+.skill-dot {
+  width: 20%;
+  height: 0.25rem;
+  margin-left: 0.25rem;
+  border: 1px solid black;
+}
+
+.skill-dot:first-child {
+  margin-left: 0;
+}
+
+.skill-dot-filled {
+  background-color: var(--primary-color);
+}
+
+.skill-dot-empty {
+  background-color: #e5e7eb;
+}

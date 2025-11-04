@@ -1,0 +1,111 @@
+{
+  "basics": {
+    "name": "Taylor Alison Swift",
+    "label": "UI/UX Designer, Frontend Developer",
+    "image": "",
+    "email": "taylorswift@smrtcv.com",
+    "phone": "+63 9512417868",
+    "url": "www.linkedin.me/taylorswift-workspace",
+    "summary": "A detail-oriented and motivated Information Technology graduate with a strong interest in web development and software design. Skilled in using modern tools and technologies to create efficient, user-centered digital solutions. Eager to apply technical knowledge, creativity, and collaboration skills to contribute to innovative projects and continuous learning in the tech sector.",
+    "location": {
+      "city": "Hendersonville",
+      "region": "TN",
+      "countryCode": "USA",
+      "address": "242 West Main Street PMB 412",
+      "postalCode": "37075"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "taylorswift-workspace",
+        "url": "www.linkedin.me/taylorswift-workspace"
+      }
+    ],
+    "nationality": "Filipino"
+  },
+  "work": [
+    {
+      "name": "UX/UI Designer",
+      "position": "UX/UI Designer",
+      "startDate": "2025-01",
+      "endDate": "Present",
+      "summary": "Designed and improved user interfaces for web and mobile applications. Collaborated with developers and stakeholders to create visually appealing and user-friendly designs. Conducted user research, built wireframes and prototypes, and ensured consistent user experiences across all platforms.",
+      "highlights": [
+        "Conducted user research to understand user needs and pain points.",
+        "Created wireframes, prototypes, and visual mockups using Figma and other design tools.",
+        "Collaborated with developers to ensure accurate design implementation."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hendersonville",
+      "area": "Information Technology",
+      "studyType": "Bachelor of Science",
+      "startDate": "2021-09",
+      "endDate": "2025-07",
+      "location": "Hendersonville, USA"
+    },
+    {
+      "institution": "University of California",
+      "area": "Visual Communication",
+      "studyType": "Bachelor of Fine Arts",
+      "startDate": "2018-06",
+      "endDate": "2022-04",
+      "location": "California, USA"
+    }
+  ],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Advanced",
+      "keywords": []
+    },
+    {
+      "name": "Database Management",
+      "level": "Intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Version Control (Git/GitHub)",
+      "level": "Intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Communication",
+      "level": "Advanced",
+      "keywords": []
+    },
+    {
+      "name": "Teamwork",
+      "level": "Advanced",
+      "keywords": []
+    }
+  ],
+  "awards": [],
+  "languages": [
+    { "language": "English", "fluency": "Advanced" },
+    { "language": "Dutch", "fluency": "Intermediate" }
+  ],
+  "interests": [
+    {
+      "name": "Hobbies",
+      "keywords": [
+        "Digital Illustration",
+        "Gaming",
+        "Singing",
+        "Baking Pastries and Cooking"
+      ]
+    }
+  ],
+  "projects": [],
+  "references": [],
+  "advisory": [
+    {
+      "organization": "Fund the Arts Organization, University of California",
+      "position": "Technical Advisor"
+    }
+  ]
+}
