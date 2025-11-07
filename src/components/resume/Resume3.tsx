@@ -17,9 +17,9 @@ interface ResumeProps {
   data: ResumeData;
 }
 
-export default function Resume({ data }: ResumeProps) {
+export default function Resume3({ data }: ResumeProps) {
   return (
-    <article className="resume-container">
+    <article className="resume-container template-3">
       {/* Basics / header */}
       {data.basics && <BasicsSection data={data.basics} />}
 

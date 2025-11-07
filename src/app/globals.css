@@ -150,3 +150,39 @@ body {
 .skill-dot-empty {
   background-color: #e5e7eb;
 }
+
+/* Template 2 specific styles */
+.template-2 .header-info {
+  background-color: #1e3a8a; /* Dark Blue */
+}
+
+.template-2 .section-title,
+.template-2 .main-section-title {
+  color: #1e3a8a; /* Dark Blue */
+}
+
+.template-2 .skill-progress {
+  background-color: #1e3a8a; /* Dark Blue */
+}
+
+.template-2 .skill-dot-filled {
+  background-color: #1e3a8a; /* Dark Blue */
+}
+
+/* Template 3 specific styles */
+.template-3 .header-info {
+  background-color: #800000; /* Maroon */
+}
+
+.template-3 .section-title,
+.template-3 .main-section-title {
+  color: #800000; /* Maroon */
+}
+
+.template-3 .skill-progress {
+  background-color: #800000; /* Maroon */
+}
+
+.template-3 .skill-dot-filled {
+  background-color: #800000; /* Maroon */
+}

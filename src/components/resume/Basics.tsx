@@ -29,9 +29,11 @@ export default function BasicsSection({ data }: BasicsProps) {
         
         <div className="space-y-1">
           <p>{data.location.address}, {data.location.city}, {data.location.region} {data.location.postalCode}, {data.location.countryCode}</p>
-          <div className="flex flex-wrap gap-4">
-            <span>{data.phone}</span>
-            <span>{data.email}</span>
+          <div className="flex flex-wrap">
+            <div style={{ display: 'flex' }}>
+              <span style={{ marginRight: '3rem' }}>{data.phone}</span>
+              <span>{data.email}</span>
+            </div>
           </div>
           <p>{data.url}</p>
         </div>
